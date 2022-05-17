@@ -1,0 +1,80 @@
+/* Navbar */
+.navbar {
+  position: relative;
+  z-index: 1;
+}
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-brand:focus {
+  color: white;
+}
+.navbar-brand {
+  font-family: sans-serif;
+  font-size: 28px;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+.nav{
+    box-shadow: 3px 1px 5px 2px rgba(0, 0, 0, 0.5);
+
+}
+.login {
+  padding: 3em 2em;
+  border-radius: 15px;
+  box-shadow: 3px 1px 5px 2px rgba(0, 0, 0, 0.5);
+  width: 40em;
+  height: 25em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3em;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login p u {
+  color: blue;
+}
+
+.login h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.tulisan form {
+  line-height: 50px;
+  padding-bottom: 2em;
+}
+.tulisan form input{
+color: black;
+  background-color: #fff;
+  border: 1px solid white;
+  width: 18em;
+  height: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.tulisan form button {
+  width: 18em;
+  height: 3em;
+  background-color: #2ec4b6;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 0px;
+}
+.container2{
+    padding-top: 2em;
+    background-image: url(blue.jpg);
+    padding-bottom: 2em;
+}
+/* mobile Version */
+@media (max-width: 900px) {
+  .navbar-light .navbar-nav .nav-link {
+    color: blue;
+    font-weight: 400;
+  }

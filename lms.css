@@ -1,0 +1,355 @@
+/* Jumbotron */
+.jumbotron {
+  background-image: url(blue.jpg);
+  background-size: cover;
+  height: 450px;
+  position: relative;
+}
+.jumbotron .container {
+  position: relative;
+  z-index: 1;
+}
+.jumbotron .display-4 {
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+}
+.jumbotron .lead {
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+}
+.jumbotron::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  position: absolute;
+  bottom: 0;
+}
+
+body.page .site-content,
+body.single .site-content,
+body.search-no-results .site-content {
+  max-width: 1060px;
+  position: relative;
+}
+div.site-content,
+table {
+  overflow: visible !important;
+}
+.site-content {
+  position: relative;
+  border: 1px solid;
+  border-color: #dadada;
+  -webkit-box-shadow: 0 2px 5px rgb(0 0 0 / 11%);
+  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.11);
+  box-shadow: 0 2px 5px rgb(0 0 0 / 11%);
+  border-radius: 6px;
+  border-collapse: collapse;
+  background: #ffffff;
+  padding: 25px;
+  max-width: 1060px;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.site-content h1 {
+  text-align: center;
+  padding-top: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.site-content p {
+  text-align: center;
+  max-width: 90%;
+  margin-left: 3em;
+  padding-bottom: 3em;
+}
+.box {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.jurusan {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-areas: "testi1 testi2 testi3";
+  padding: 1em;
+  margin-left: 4em;
+  padding-top: 1em;
+  padding-bottom: 4em;
+}
+.jurusan img:hover {
+  transform: scale(1.1);
+}
+.tm {
+  display: grid;
+  grid-area: testi1;
+  place-items: center;
+  width: 19em;
+  background-image: url(blue.jpg);
+  border-radius: 10px;
+  padding-top: 0.8em;
+}
+.tm img {
+  border-radius: 25%;
+  border: 8px solid #5248d1;
+  width: 10em;
+  height: 8em;
+}
+.tm h1 {
+  text-align: center;
+  font-family: "Trebuchet MS";
+  font-size: 1.5rem;
+  color: #f1faee;
+}
+.tm p {
+  text-align: center;
+  font-family: "Trebuchet MS";
+  color: #f1faee;
+}
+.tki {
+  display: grid;
+  grid-area: testi2;
+  place-items: center;
+  width: 19em;
+  background-image: url(blue.jpg);
+  border-radius: 10px;
+  padding-top: 1em;
+}
+.tki img {
+  border-radius: 25%;
+  border: 8px solid #5248d1;
+  width: 10em;
+  height: 8em;
+}
+.tki h1 {
+  padding: 1em;
+  text-align: center;
+  font-family: "Trebuchet MS";
+  font-size: 1.5rem;
+  color: #f1faee;
+}
+.tki p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f1faee;
+}
+.sr {
+  display: grid;
+  grid-area: testi3;
+  place-items: center;
+  width: 19em;
+  background-image: url(blue.jpg);
+  border-radius: 10px;
+  padding: 0.8em;
+}
+.sr img {
+  border-radius: 25%;
+  border: 8px solid #5248d1;
+  width: 10em;
+  height: 8em;
+}
+.sr h1 {
+  padding: 1em;
+  text-align: center;
+  font-family: "Trebuchet MS";
+  font-size: 1.5rem;
+  color: #f1faee;
+}
+.sr p {
+  text-align: center;
+  font-family: "Trebuchet MS";
+  color: #f1faee;
+}
+.pelajaran {
+  font-family: "Trebuchet MS";
+  font-size: 2rem;
+  padding-bottom: 1em;
+}
+.judul h1 {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.col {
+  background-image: url(blue.jpg);
+  padding: 1em;
+  margin: 0.8em;
+  color: #ffffff;
+}
+.col button {
+  border: 0px;
+  border-radius: 20%;
+  font-size: 1rem;
+}
+.col-lg-5 {
+  background-image: url(blue.jpg);
+  padding: 1em;
+  margin: 0.8em;
+  color: #ffffff;
+  width: 100%;
+}
+footer {
+  background-image: url(blue.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 3em;
+  display: flex;
+  justify-content: center;
+  font-size: 0.8rem;
+  color: #f1faee;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer p {
+  margin-top: 0.8em;
+}
+.profil {
+  display: grid;
+  grid-template-areas: "foto text";
+  place-items: center;
+  padding-top: 5em;
+  padding-bottom: 1.7em;
+}
+.keterangan {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  grid-area: text;
+}
+.keterangan h1 {
+  text-align: center;
+  font-size: 2.8rem;
+  width: 8em;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1em;
+  padding-bottom: 0.5em;
+}
+.keterangan p {
+  text-align: justify;
+  width: 18em;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2em;
+  padding-bottom: 4em;
+}
+.fp img {
+  grid-area: foto;
+  width: 15em;
+  height: 15em;
+  border: 8px solid #5248d1;
+  justify-self: center;
+  margin-top: 1em;
+}
+.judul h1 {
+  padding-top: 1em;
+}
+.login {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 3em;
+}
+.nilai h1 {
+  text-align: center;
+  padding-top: 1.8em;
+  margin-bottom: 1em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.table {
+  margin-bottom: 3em;
+}
+.atas th {
+  color: #ffffff;
+}
+.rate {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 3em;
+}
+/* mobile Version */
+@media (max-width: 900px) {
+  .jumbotron {
+    margin-top: 10px;
+  }
+
+  .jumbotron .display-4 {
+    font-size: 70px;
+  }
+  .jumbotron .lead {
+    font-size: 25px;
+  }
+
+  .box2 {
+    padding-bottom: 5em;
+    margin-top: -2.3em;
+  }
+  .jurusan {
+    display: grid;
+    grid-template-areas:
+      "tm"
+      "tki"
+      "sr";
+    padding: 3em;
+    padding-top: 1em;
+  }
+  .tm {
+    display: grid;
+    grid-area: tm;
+    place-items: center;
+    width: 19em;
+    background-image: url(blue.jpg);
+    margin-bottom: 2em;
+  }
+  .tm img {
+    border-radius: 25%;
+    border: 8px solid #5248d1;
+    margin-bottom: 1em;
+  }
+  .tki {
+    display: grid;
+    grid-area: tki;
+    place-items: center;
+    width: 19em;
+    background-image: url(blue.jpg);
+    margin-bottom: 2em;
+  }
+  .tki img {
+    border-radius: 25%;
+    border: 8px solid #5248d1;
+  }
+
+  .sr {
+    display: grid;
+    grid-area: sr;
+    place-items: center;
+    width: 19em;
+    background-image: url(blue.jpg);
+    margin-bottom: 0.5em;
+  }
+  .sr img {
+    border-radius: 25%;
+    border: 8px solid #5248d1;
+  }
+  .profil {
+    display: grid;
+    grid-template-areas:
+      "text"
+      "foto";
+    place-items: center;
+  }
+  .keterangan {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    grid-area: text;
+  }
+  .fp img {
+    margin-top: 1em;
+    margin-bottom: 4em;
+  }
+}
